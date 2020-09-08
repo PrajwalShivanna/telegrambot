@@ -5,6 +5,7 @@ x = os.getenv('x') # ADAFRUIT_IO_USERNAME
 y = os.getenv('y') # ADAFRUIT_IO_KEY
 z = os.getenv('z') # TELEGRAM_BOT_TOKEN
 
+
 def on(bot,update):
     chat_id=update.message.chat_id
     bot.send_photo(chat_id,photo='https://previews.123rf.com/images/murika/murika1511/murika151100069/48123160-bright-glowing-incandescent-light-bulb-on-a-white-background.jpg')
