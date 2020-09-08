@@ -8,7 +8,7 @@ z = os.getenv('z') # TELEGRAM_BOT_TOKEN
 
 def on(bot,update):
     chat_id=update.message.chat_id
-    bot.send_photo(chat_id,photo='https://previews.123rf.com/images/murika/murika1511/murika151100069/48123160-bright-glowing-incandescent-light-bulb-on-a-white-background.jpg')
+    bot.send_photo(chat_id,photo='https://cdn1.vectorstock.com/i/1000x1000/59/15/bulb-light-icon-line-lamp-on-symbol-vector-21085915.jpg')
     bot.send_message(chat_id,text='bulb turned on')
     aio = Client(x,y)
     value=Data(value=1)
@@ -16,7 +16,7 @@ def on(bot,update):
 
 def off(bot,update):
     chat_id=update.message.chat_id
-    bot.send_photo(chat_id,photo='https://previews.123rf.com/images/ericmilos/ericmilos0912/ericmilos091200136/6109526-3d-render-of-light-bulb-on-white.jpg')
+    bot.send_photo(chat_id,photo='https://cdn5.vectorstock.com/i/1000x1000/59/14/bulb-light-icon-line-idea-symbol-vector-21085914.jpg')
     bot.send_message(chat_id,text='bulb turned off')
     aio = Client(x,y)
     value=Data(value=0)
