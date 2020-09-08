@@ -1,1 +1,1 @@
-worker:python finalproject.py
+worker: python finalproject.py
