@@ -3,7 +3,7 @@ from Adafruit_IO import Client, Data
 import os
 x = os.getenv('x') # ADAFRUIT_IO_USERNAME
 y = os.getenv('y') # ADAFRUIT_IO_KEY
-z = os.getenv('z')
+z = os.getenv('z') # TELEGRAM_BOT_TOKEN
 
 
 
